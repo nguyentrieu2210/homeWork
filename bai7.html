@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var max = min = prompt("Nhap so thu nhat");
+        for (var i = 2; i <= 5; i++) {
+            var b = prompt("Nhap vao so thu " + i);
+            if (b > max) {
+                max = b;
+            }
+            if (b < min) {
+                min = b;
+            }
+        }
+        document.write("So lon nhat la:" + max + "<br>" + "So nho nhat la:" + min);
+    </script>
+</body>
+
+</html>

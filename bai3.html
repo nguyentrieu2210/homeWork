@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var a = parseFloat(prompt("Nhap so A"));
+        var b = parseFloat(prompt("Nhap so B"));
+        var sum = 0;
+        if (a > b) {
+            for (b; b <= a; b++) {
+                sum += b;
+            }
+        } else {
+            for (a; a <= b; a++) {
+                sum += a;
+            }
+        }
+        document.write(sum);
+    </script>
+</body>
+
+</html>
